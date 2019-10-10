@@ -1,0 +1,92 @@
+Forked lib/g3n and did several modifications to it:
+
+  - Enable Viewport to work in panels with y > 0. there was no metric to be passed with the y.
+renderer/renderer.go
+362c362
+<                       _, _, _, viewheight := r.gs.GetViewport()
+---
+>                         viewx, viewy, viewwidth, viewheight := r.gs.GetViewport()
+364c364
+<                       r.gs.Scissor(int32(pos.X), viewheight-int32(pos.Y)-int32(height), uint32(width), uint32(height))
+---
+>                       r.gs.Scissor(int32(viewx), int32(viewy), uint32(viewwidth), uint32(viewheight))
+
+
+  - Allow reading textures from []bytes so as to load models from arrays encoded in the binary.
+texture/texture2D.go
+8a11
+> 	"io"
+89a93,104
+> func NewTexture2DFromReader(reader io.Reader) (*Texture2D, error) {
+> 	// Decodes image file into RGBA8
+> 	rgba, err := DecodeImageFromReader(reader)
+> 	if err != nil {
+> 		return nil, err
+> 	}
+> 
+> 	t := newTexture2D()
+> 	t.SetFromRGBA(rgba)
+> 	return t, nil
+> }
+> 
+293a309,324
+> 	if err != nil {
+> 		return nil, err
+> 	}
+> 
+> 	// Converts image to RGBA format
+> 	rgba := image.NewRGBA(img.Bounds())
+> 	if rgba.Stride != rgba.Rect.Size().X*4 {
+> 		return nil, fmt.Errorf("unsupported stride")
+> 	}
+> 	draw.Draw(rgba, rgba.Bounds(), img, image.Point{0, 0}, draw.Src)
+> 	return rgba, nil
+> }
+> 
+> func DecodeImageFromReader(reader io.Reader) (*image.RGBA, error) {
+> 	// Decodes image
+> 	img, _, err := image.Decode(reader)
+
+
+  - Allow reading textures from bytes.
+  - Allow translucent materials.
+loader/obj/obj.go
+9a12
+> 	"bytes"
+18a22
+> 	"cavernal.com/lib/g3n/engine/texture"
+25d28
+< 	"cavernal.com/lib/g3n/engine/texture"
+41a45,46
+> 	files         map[string][]byte
+> 	path          string
+108c113
+< 	dec, err := DecodeReader(fobj, fmtl)
+---
+> 	dec, err := DecodeReader(fobj, fmtl, "", nil)
+118c123
+< func DecodeReader(objreader, mtlreader io.Reader) (*Decoder, error) {
+---
+> func DecodeReader(objreader, mtlreader io.Reader, path string, files map[string][]byte) (*Decoder, error) {
+127a133,134
+> 	dec.files = files
+> 	dec.path = path
+179a187,190
+> 		mat.SetOpacity(matDesc.Opacity)
+> 		if matDesc.Opacity < 1 {
+> 			mat.SetTransparent(true)
+> 		}
+199a211,214
+> 		matGroup.SetOpacity(matDesc.Opacity)
+> 		if matDesc.Opacity < 1 {
+> 			matGroup.SetTransparent(true)
+> 		}
+290c305,310
+< 	tex, err := texture.NewTexture2DFromImage(texPath)
+---
+> 	pngFilename := fmt.Sprintf("%s/%s", dec.path, texPath)
+> 	pngData, ok := dec.files[pngFilename]
+> 	if !ok {
+> 		return fmt.Errorf("png file %s data not found", pngFilename)
+> 	}
+> 	tex, err := texture.NewTexture2DFromReader(bytes.NewReader(pngData))
