@@ -9,17 +9,17 @@ import (
 	"runtime/trace"
 	"time"
 
-	"cavernal.com/lib/g3n/engine/audio/al"
-	"cavernal.com/lib/g3n/engine/audio/vorbis"
-	"cavernal.com/lib/g3n/engine/camera"
-	"cavernal.com/lib/g3n/engine/camera/control"
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/gui"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/renderer"
-	"cavernal.com/lib/g3n/engine/util/logger"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/audio/al"
+	"github.com/lquesada/cavernal/lib/g3n/engine/audio/vorbis"
+	"github.com/lquesada/cavernal/lib/g3n/engine/camera"
+	"github.com/lquesada/cavernal/lib/g3n/engine/camera/control"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/renderer"
+	"github.com/lquesada/cavernal/lib/g3n/engine/util/logger"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 // Application is a standard application object which can be used as a base for G3N applications.

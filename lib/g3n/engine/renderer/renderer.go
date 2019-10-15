@@ -5,13 +5,13 @@
 package renderer
 
 import (
-	"cavernal.com/lib/g3n/engine/camera"
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/graphic"
-	"cavernal.com/lib/g3n/engine/gui"
-	"cavernal.com/lib/g3n/engine/light"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/camera"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/graphic"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui"
+	"github.com/lquesada/cavernal/lib/g3n/engine/light"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 	"sort"
 )
 

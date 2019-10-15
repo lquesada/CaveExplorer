@@ -5,8 +5,8 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/text"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/text"
 )
 
 // Style contains the styles for all GUI elements

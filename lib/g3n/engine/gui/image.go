@@ -5,7 +5,7 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/texture"
+	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 	"image"
 )
 

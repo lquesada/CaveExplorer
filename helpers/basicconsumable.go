@@ -1,7 +1,7 @@
 package helpers
 
-import "cavernal.com/model"
-import "cavernal.com/entity"
+import "github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/entity"
 
 type BasicConsumable struct {
 	entity.Consumable

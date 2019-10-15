@@ -5,10 +5,10 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/gui/assets"
-	"cavernal.com/lib/g3n/engine/gui/assets/icon"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/text"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui/assets"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui/assets/icon"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/text"
 )
 
 // NewLightStyle creates and returns a pointer to the a new "light" style

@@ -6,8 +6,8 @@ import (
 		"strings"
         "fmt"
 
-        "cavernal.com/lib/g3n/engine/loader/obj"
-        "cavernal.com/lib/g3n/engine/math32"
+        "github.com/lquesada/cavernal/lib/g3n/engine/loader/obj"
+        "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 var (
@@ -26,7 +26,7 @@ Xquarter = &Transform{Scale: &math32.Vector3{0.25, 0.25, 0.25}}
 )
 
 func DirOf(i interface{}) string {
-	return strings.TrimPrefix(reflect.TypeOf(i).PkgPath(), "cavernal.com/")
+	return strings.TrimPrefix(reflect.TypeOf(i).PkgPath(), "github.com/lquesada/cavernal/")
 }
 
 func load(filepath, baseFilename string, files map[string][]byte) (*obj.Decoder, error) {

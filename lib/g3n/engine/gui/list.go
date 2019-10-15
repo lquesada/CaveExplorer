@@ -5,7 +5,7 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 // List represents a list GUI element

@@ -4,7 +4,7 @@
 
 package shape
 
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 // IShape is the interface for all collision shapes.
 // Shapes in this package satisfy this interface and also geometry.Geometry.

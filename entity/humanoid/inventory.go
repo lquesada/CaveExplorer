@@ -1,7 +1,7 @@
 package humanoid
 
 import (
-	"cavernal.com/entity"
+	"github.com/lquesada/cavernal/entity"
 )
 
 type Inventory struct {

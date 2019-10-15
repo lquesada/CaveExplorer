@@ -97,12 +97,12 @@ Install the development files of OpenAL and Vorbis using [Homebrew](https://brew
   package main
 
   import (
-      "cavernal.com/lib/g3n/engine/util/application"
-      "cavernal.com/lib/g3n/engine/geometry"
-      "cavernal.com/lib/g3n/engine/material"
-      "cavernal.com/lib/g3n/engine/math32"
-      "cavernal.com/lib/g3n/engine/graphic"
-      "cavernal.com/lib/g3n/engine/light"
+      "github.com/lquesada/cavernal/lib/g3n/engine/util/application"
+      "github.com/lquesada/cavernal/lib/g3n/engine/geometry"
+      "github.com/lquesada/cavernal/lib/g3n/engine/material"
+      "github.com/lquesada/cavernal/lib/g3n/engine/math32"
+      "github.com/lquesada/cavernal/lib/g3n/engine/graphic"
+      "github.com/lquesada/cavernal/lib/g3n/engine/light"
   )
 
   func main() {

@@ -4,7 +4,7 @@
 
 package shape
 
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 // Sphere is an analytical collision sphere.
 type Sphere struct {

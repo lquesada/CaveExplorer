@@ -7,8 +7,8 @@ package gui
 import (
 	"path/filepath"
 
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 // buildPanel builds an object of type Panel

@@ -1,6 +1,6 @@
 package entity
 
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 func Distance2D(v1 *math32.Vector3, v2 *math32.Vector3) float32 {
 	var x = v1.X-v2.X

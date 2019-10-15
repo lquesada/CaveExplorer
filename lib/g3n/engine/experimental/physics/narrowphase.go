@@ -5,10 +5,10 @@
 package physics
 
 import (
-	"cavernal.com/lib/g3n/engine/experimental/physics/object"
-	"cavernal.com/lib/g3n/engine/experimental/physics/equation"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/experimental/collision/shape"
+	"github.com/lquesada/cavernal/lib/g3n/engine/experimental/physics/object"
+	"github.com/lquesada/cavernal/lib/g3n/engine/experimental/physics/equation"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/experimental/collision/shape"
 )
 
 // Narrowphase

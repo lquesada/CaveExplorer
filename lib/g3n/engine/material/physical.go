@@ -7,9 +7,9 @@ package material
 import (
 	"unsafe"
 
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/texture"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 )
 
 // Physical is a physically based rendered material which uses the metallic-roughness model.

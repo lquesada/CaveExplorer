@@ -9,9 +9,9 @@ import (
 	"regexp"
 	"strings"
 
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/material"
-	"cavernal.com/lib/g3n/engine/renderer/shaders"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/material"
+	"github.com/lquesada/cavernal/lib/g3n/engine/renderer/shaders"
 	"strconv"
 )
 

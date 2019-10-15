@@ -5,7 +5,7 @@
 package gltf
 
 import (
-	"cavernal.com/lib/g3n/engine/util/logger"
+	"github.com/lquesada/cavernal/lib/g3n/engine/util/logger"
 )
 
 // Package logger

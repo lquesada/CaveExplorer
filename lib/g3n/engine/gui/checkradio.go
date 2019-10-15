@@ -5,8 +5,8 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/gui/assets/icon"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui/assets/icon"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 const (

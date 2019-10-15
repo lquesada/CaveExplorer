@@ -1,7 +1,7 @@
 package model
 
-import "cavernal.com/lib/g3n/engine/core"
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/core"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 func (s *Step) ApplyTransforms(progress float32) {
 	for target, t := range s.transformSteps {

@@ -1,10 +1,10 @@
 package miscitems
 
 import (
-"cavernal.com/assets"
-"cavernal.com/helpers"
-"cavernal.com/model"
-"cavernal.com/entity"
+"github.com/lquesada/cavernal/assets"
+"github.com/lquesada/cavernal/helpers"
+"github.com/lquesada/cavernal/model"
+"github.com/lquesada/cavernal/entity"
 )
 
 // --

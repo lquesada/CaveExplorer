@@ -1,8 +1,8 @@
 package stats
 
 import (
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/gui"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui"
 )
 
 // StatsTable is a gui.Table panel with statistics

@@ -7,7 +7,7 @@
 package window
 
 import (
-	"cavernal.com/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
 	"github.com/go-gl/glfw/v3.2/glfw"
 )
 

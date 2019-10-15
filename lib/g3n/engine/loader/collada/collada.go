@@ -8,9 +8,9 @@ package collada
 import (
 	"encoding/xml"
 	"fmt"
-	"cavernal.com/lib/g3n/engine/geometry"
-	"cavernal.com/lib/g3n/engine/material"
-	"cavernal.com/lib/g3n/engine/texture"
+	"github.com/lquesada/cavernal/lib/g3n/engine/geometry"
+	"github.com/lquesada/cavernal/lib/g3n/engine/material"
+	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 	"io"
 	"os"
 )

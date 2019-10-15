@@ -1,10 +1,10 @@
 package helpers
 
 import "math/rand"
-import "cavernal.com/world"
-import "cavernal.com/entity"
-import "cavernal.com/game"
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/world"
+import "github.com/lquesada/cavernal/entity"
+import "github.com/lquesada/cavernal/game"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 type WorldGenerator struct{
 	rooms []*world.Room

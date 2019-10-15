@@ -1,7 +1,7 @@
 package application
 
 import (
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 // KeyState keeps track of the state of all keys.

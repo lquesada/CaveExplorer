@@ -1,6 +1,6 @@
 package world
 
-import "cavernal.com/model"
+import "github.com/lquesada/cavernal/model"
 
 type ITile interface {
 	model.IDrawable

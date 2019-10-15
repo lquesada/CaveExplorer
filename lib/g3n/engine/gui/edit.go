@@ -5,9 +5,9 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/text"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/text"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 	"strings"
 	"time"
 )

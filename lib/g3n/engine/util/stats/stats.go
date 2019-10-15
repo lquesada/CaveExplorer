@@ -1,7 +1,7 @@
 package stats
 
 import (
-	"cavernal.com/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
 	"runtime"
 	"time"
 )

@@ -5,10 +5,10 @@
 package audio
 
 import (
-	"cavernal.com/lib/g3n/engine/audio/al"
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/audio/al"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 // Listener is an audio listener positioned in space

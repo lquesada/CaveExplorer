@@ -1,8 +1,8 @@
 package humanoid
 
 import (
-	"cavernal.com/entity"
-	"cavernal.com/model"
+	"github.com/lquesada/cavernal/entity"
+	"github.com/lquesada/cavernal/model"
 )
 
 type IHumanoidEquipable interface {

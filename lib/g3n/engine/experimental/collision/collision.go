@@ -4,7 +4,7 @@
 
 package collision
 
-import "cavernal.com/lib/g3n/engine/geometry"
+import "github.com/lquesada/cavernal/lib/g3n/engine/geometry"
 
 // TODO collision checking function dependent on collision shapes
 

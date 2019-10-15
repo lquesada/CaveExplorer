@@ -1,6 +1,6 @@
 package entity
 
-import	"cavernal.com/model"
+import	"github.com/lquesada/cavernal/model"
 
 type IAttack interface {
 	IEntity

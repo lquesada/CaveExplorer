@@ -6,13 +6,13 @@ package gui
 
 import (
 	"fmt"
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/geometry"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/graphic"
-	"cavernal.com/lib/g3n/engine/material"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/renderer/shaders"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/geometry"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/graphic"
+	"github.com/lquesada/cavernal/lib/g3n/engine/material"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/renderer/shaders"
 	"math"
 )
 

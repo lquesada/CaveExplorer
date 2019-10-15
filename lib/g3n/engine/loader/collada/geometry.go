@@ -6,9 +6,9 @@ package collada
 
 import (
 	"fmt"
-	"cavernal.com/lib/g3n/engine/geometry"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/geometry"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 	"reflect"
 	"strings"
 )

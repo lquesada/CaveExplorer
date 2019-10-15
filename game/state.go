@@ -1,11 +1,11 @@
 package game
 
 import (
-	"cavernal.com/world"
-	"cavernal.com/entity"
-	"cavernal.com/model"
+	"github.com/lquesada/cavernal/world"
+	"github.com/lquesada/cavernal/entity"
+	"github.com/lquesada/cavernal/model"
 
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 	"math/rand"
 	"time"
 )

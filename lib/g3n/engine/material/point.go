@@ -5,7 +5,7 @@
 package material
 
 import (
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 // Point material is normally used for single point sprites

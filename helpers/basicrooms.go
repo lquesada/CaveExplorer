@@ -1,6 +1,6 @@
 package helpers
 
-import "cavernal.com/world"
+import "github.com/lquesada/cavernal/world"
 
 func NewBasicPlatformRoomSet(o, u, w, h, x func() world.ITile) []*world.Room {
 	return []*world.Room{

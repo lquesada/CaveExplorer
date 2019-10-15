@@ -1,6 +1,6 @@
 package hud
 
-import "cavernal.com/lib/g3n/engine/gui"
+import "github.com/lquesada/cavernal/lib/g3n/engine/gui"
 
 type IHUD interface {
 	Panel() *gui.Panel

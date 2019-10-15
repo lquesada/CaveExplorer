@@ -1,9 +1,9 @@
 package model
 
-import "cavernal.com/lib/g3n/engine/graphic"
-import "cavernal.com/lib/g3n/engine/material"
-import        "cavernal.com/lib/g3n/engine/core"
-import         "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/graphic"
+import "github.com/lquesada/cavernal/lib/g3n/engine/material"
+import        "github.com/lquesada/cavernal/lib/g3n/engine/core"
+import         "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 type INode interface {
 	G3NNode() *core.Node

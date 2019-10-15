@@ -3,8 +3,8 @@ package gltf
 import (
 	"fmt"
 
-	"cavernal.com/lib/g3n/engine/material"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/material"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 func (g *GLTF) loadMaterialPBR(m *Material) (material.IMaterial, error) {

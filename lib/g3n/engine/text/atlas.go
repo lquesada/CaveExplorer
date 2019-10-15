@@ -7,7 +7,7 @@ package text
 import (
 	"bufio"
 	"fmt"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 	"image"
 	"image/png"
 	"os"

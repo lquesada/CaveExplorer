@@ -1,11 +1,11 @@
 package equipables
 
 import (
-"cavernal.com/assets"
-"cavernal.com/helpers"
-"cavernal.com/entity"
-"cavernal.com/model"
-"cavernal.com/lib/g3n/engine/math32"
+"github.com/lquesada/cavernal/assets"
+"github.com/lquesada/cavernal/helpers"
+"github.com/lquesada/cavernal/entity"
+"github.com/lquesada/cavernal/model"
+"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 // --

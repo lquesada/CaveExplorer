@@ -5,9 +5,9 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 	"sort"
 )
 

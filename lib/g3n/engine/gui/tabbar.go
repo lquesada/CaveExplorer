@@ -7,7 +7,7 @@ package gui
 import (
 	"fmt"
 
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 // TabBar is a panel which can contain other panels arranged in horizontal Tabs.

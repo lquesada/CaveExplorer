@@ -10,9 +10,9 @@ import (
 	"sort"
 	"strconv"
 
-	"cavernal.com/lib/g3n/engine/gui/assets/icon"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui/assets/icon"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 )
 
 const (

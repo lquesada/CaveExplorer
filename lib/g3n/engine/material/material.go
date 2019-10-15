@@ -7,8 +7,8 @@
 package material
 
 import (
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/texture"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 )
 
 // Side represents the material's visible side(s)

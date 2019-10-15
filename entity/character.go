@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 	"math/rand"
 )
 

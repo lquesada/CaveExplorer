@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"cavernal.com/model"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/model"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 type IEquipable interface {

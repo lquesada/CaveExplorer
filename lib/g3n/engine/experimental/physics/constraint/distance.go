@@ -5,7 +5,7 @@
 package constraint
 
 import (
-	"cavernal.com/lib/g3n/engine/experimental/physics/equation"
+	"github.com/lquesada/cavernal/lib/g3n/engine/experimental/physics/equation"
 )
 
 // Distance is a distance constraint.

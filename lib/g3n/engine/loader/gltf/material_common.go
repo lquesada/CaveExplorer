@@ -1,9 +1,9 @@
 package gltf
 
 import (
-	"cavernal.com/lib/g3n/engine/material"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/texture"
+	"github.com/lquesada/cavernal/lib/g3n/engine/material"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 )
 
 // loadMaterialCommon receives an interface value describing a KHR_materials_common extension,

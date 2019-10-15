@@ -5,8 +5,8 @@
 package camera
 
 import (
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 // Orthographic is an orthographic camera.

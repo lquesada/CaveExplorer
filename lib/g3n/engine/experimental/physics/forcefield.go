@@ -4,7 +4,7 @@
 
 package physics
 
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 // ForceField represents a force field. A force is defined for every point.
 type ForceField interface {

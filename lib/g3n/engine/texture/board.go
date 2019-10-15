@@ -5,8 +5,8 @@
 package texture
 
 import (
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 // NewBoard creates and returns a pointer to a new checker board 2D texture.

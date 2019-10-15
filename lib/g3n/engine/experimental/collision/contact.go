@@ -4,7 +4,7 @@
 
 package collision
 
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 // Contact describes a contact point, normal, and depth.
 type Contact struct {

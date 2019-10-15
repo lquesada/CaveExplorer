@@ -1,12 +1,12 @@
 package input
 
 import (
-	"cavernal.com/lib/g3n/engine/util/application"
-	"cavernal.com/lib/g3n/engine/window"
-	"cavernal.com/lib/g3n/engine/gui"
-	"cavernal.com/lib/g3n/engine/math32"
- "cavernal.com/entity"
- "cavernal.com/model"
+	"github.com/lquesada/cavernal/lib/g3n/engine/util/application"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gui"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+ "github.com/lquesada/cavernal/entity"
+ "github.com/lquesada/cavernal/model"
 )
 
 type Input struct{

@@ -1,14 +1,14 @@
 package enemies
 
-import 	"cavernal.com/assets/humanoid/customization"
-import 	"cavernal.com/assets/humanoid/human"
-import 	"cavernal.com/assets/humanoid/skeleton"
-import 	"cavernal.com/assets/humanoid/orc"
-import 	"cavernal.com/assets/humanoid/zombie"
-import 	"cavernal.com/entity/humanoid"
-import 	"cavernal.com/entity"
-import 	"cavernal.com/model"
-import  "cavernal.com/lib/g3n/engine/math32"
+import 	"github.com/lquesada/cavernal/assets/humanoid/customization"
+import 	"github.com/lquesada/cavernal/assets/humanoid/human"
+import 	"github.com/lquesada/cavernal/assets/humanoid/skeleton"
+import 	"github.com/lquesada/cavernal/assets/humanoid/orc"
+import 	"github.com/lquesada/cavernal/assets/humanoid/zombie"
+import 	"github.com/lquesada/cavernal/entity/humanoid"
+import 	"github.com/lquesada/cavernal/entity"
+import 	"github.com/lquesada/cavernal/model"
+import  "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 type SimpleEnemy struct{ 
 	humanoid.Humanoid

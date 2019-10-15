@@ -1,7 +1,7 @@
 package world
 
-import "cavernal.com/lib/g3n/engine/math32"
-import "cavernal.com/model"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/model"
 
 type Coords struct {
 	X int

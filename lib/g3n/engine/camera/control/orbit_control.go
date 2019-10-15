@@ -5,10 +5,10 @@
 package control
 
 import (
-	"cavernal.com/lib/g3n/engine/camera"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/util/logger"
-	"cavernal.com/lib/g3n/engine/window"
+	"github.com/lquesada/cavernal/lib/g3n/engine/camera"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/util/logger"
+	"github.com/lquesada/cavernal/lib/g3n/engine/window"
 	"math"
 )
 

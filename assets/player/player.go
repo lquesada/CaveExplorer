@@ -1,10 +1,10 @@
 package player
 
-import 	"cavernal.com/assets/humanoid/human"
-import 	"cavernal.com/assets/humanoid/customization"
-import 	"cavernal.com/entity/humanoid"
-import 	"cavernal.com/model"
-import "cavernal.com/entity"
+import 	"github.com/lquesada/cavernal/assets/humanoid/human"
+import 	"github.com/lquesada/cavernal/assets/humanoid/customization"
+import 	"github.com/lquesada/cavernal/entity/humanoid"
+import 	"github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/entity"
 
 type HumanPlayer struct{ 
 	humanoid.Humanoid

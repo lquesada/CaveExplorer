@@ -1,8 +1,8 @@
 package humanoid
 
 import "fmt"
-import "cavernal.com/model"
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 var (
 	HumanoidAttackAction model.ActionId = "HumanoidAttackAction"

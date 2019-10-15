@@ -1,8 +1,8 @@
 package helpers
 
 
-import "cavernal.com/entity"
-import "cavernal.com/model"
+import "github.com/lquesada/cavernal/entity"
+import "github.com/lquesada/cavernal/model"
 
 type BasicMeleeAttack struct {
 	entity.Attack		

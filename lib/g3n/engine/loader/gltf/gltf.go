@@ -6,14 +6,14 @@
 package gltf
 
 import (
-	"cavernal.com/lib/g3n/engine/animation"
-	"cavernal.com/lib/g3n/engine/camera"
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/material"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/animation"
+	"github.com/lquesada/cavernal/lib/g3n/engine/camera"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/material"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 	"image"
-	"cavernal.com/lib/g3n/engine/graphic"
+	"github.com/lquesada/cavernal/lib/g3n/engine/graphic"
 )
 
 // glTF Extensions.

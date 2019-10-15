@@ -1,6 +1,6 @@
 package entity
 
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 // RelativeCylinder is a cylinder relative to a bigger entity, e.g. a sword that's carried.
 type RelativeCylinder struct{

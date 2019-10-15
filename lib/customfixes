@@ -54,9 +54,9 @@ loader/obj/obj.go
 9a12
 > 	"bytes"
 18a22
-> 	"cavernal.com/lib/g3n/engine/texture"
+> 	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 25d28
-< 	"cavernal.com/lib/g3n/engine/texture"
+< 	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 41a45,46
 > 	files         map[string][]byte
 > 	path          string

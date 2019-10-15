@@ -5,10 +5,10 @@
 package graphic
 
 import (
-	"cavernal.com/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
 	"strconv"
-	"cavernal.com/lib/g3n/engine/core"
-	"cavernal.com/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/core"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
 )
 
 // MaxBoneInfluencers is the maximum number of bone influencers per vertex.

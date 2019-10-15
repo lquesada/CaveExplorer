@@ -1,7 +1,7 @@
 package customization
 
-import "cavernal.com/model"
-import "cavernal.com/assets"
+import "github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/assets"
 
 type pathMarker struct{} // Needed to find directory
 var (

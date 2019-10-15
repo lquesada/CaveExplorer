@@ -1,10 +1,10 @@
 package equipables
 
 import (
-"cavernal.com/entity"
-"cavernal.com/assets"
-"cavernal.com/helpers"
-"cavernal.com/model"
+"github.com/lquesada/cavernal/entity"
+"github.com/lquesada/cavernal/assets"
+"github.com/lquesada/cavernal/helpers"
+"github.com/lquesada/cavernal/model"
 )
 
 // --

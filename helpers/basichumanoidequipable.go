@@ -1,9 +1,9 @@
 package helpers
 
-import "cavernal.com/model"
-import "cavernal.com/entity"
-import "cavernal.com/entity/humanoid"
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/entity"
+import "github.com/lquesada/cavernal/entity/humanoid"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 type BasicHumanoidEquipable struct {
 	BasicEquipable

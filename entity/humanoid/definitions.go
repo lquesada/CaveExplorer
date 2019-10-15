@@ -1,6 +1,6 @@
 package humanoid
 
-import "cavernal.com/entity"
+import "github.com/lquesada/cavernal/entity"
 
 
 var (

@@ -1,10 +1,10 @@
 package helpers
 
-import "cavernal.com/model"
-import "cavernal.com/entity"
+import "github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/entity"
 import    "hash/fnv"
 import    "math"
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 type BasicEquipable struct {
 	entity.Equipable

@@ -1,10 +1,10 @@
 package scenery
 
 import "fmt"
-import "cavernal.com/assets"
-import "cavernal.com/world"
-import "cavernal.com/model"
-import "cavernal.com/lib/g3n/engine/math32"
+import "github.com/lquesada/cavernal/assets"
+import "github.com/lquesada/cavernal/world"
+import "github.com/lquesada/cavernal/model"
+import "github.com/lquesada/cavernal/lib/g3n/engine/math32"
 
 // --
 

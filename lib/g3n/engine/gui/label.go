@@ -5,10 +5,10 @@
 package gui
 
 import (
-	"cavernal.com/lib/g3n/engine/gls"
-	"cavernal.com/lib/g3n/engine/math32"
-	"cavernal.com/lib/g3n/engine/text"
-	"cavernal.com/lib/g3n/engine/texture"
+	"github.com/lquesada/cavernal/lib/g3n/engine/gls"
+	"github.com/lquesada/cavernal/lib/g3n/engine/math32"
+	"github.com/lquesada/cavernal/lib/g3n/engine/text"
+	"github.com/lquesada/cavernal/lib/g3n/engine/texture"
 )
 
 // Label is a panel which contains a texture with text.

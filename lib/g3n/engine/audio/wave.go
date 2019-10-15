@@ -6,7 +6,7 @@ package audio
 
 import (
 	"fmt"
-	"cavernal.com/lib/g3n/engine/audio/al"
+	"github.com/lquesada/cavernal/lib/g3n/engine/audio/al"
 	"os"
 )
 
