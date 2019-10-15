@@ -97,6 +97,13 @@ The following files and directories compose an instantiation of the Cavernal sor
    - ./sources: Contains the MagicaVoxel source files and exported files used by the assets
 
 # How to build or run from the code
+First, download and install all dependencies:
+
+```
+$ go get github.com/lquesada/cavernal
+
+```
+
 First regenerate all models from MagicaVoxel source and exported files. Please refer to regenmodels.sh or https://github.com/lquesada/voxel-3d-models/tree/master/tools/voxobjrename for details on this step.
 
 ```
