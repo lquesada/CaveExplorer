@@ -100,7 +100,7 @@ The following files and directories compose an instantiation of the CaveExplorer
 First, download and install all dependencies:
 
 ```
-$ go get github.com/lquesada/cavernal
+$ go get github.com/lquesada/CaveExplorer
 
 ```
 
