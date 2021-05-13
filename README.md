@@ -1,12 +1,12 @@
-# Cavernal
+# CaveExplorer
 
-Copyright (c) 2019, Luis Quesada Torres - https://github.com/lquesada | www.luisquesada.com | www.cavernal.com
+Copyright (c) 2019, Luis Quesada Torres - https://github.com/lquesada | www.luisquesada.com
 
-Cavernal is a voxel-based videogame proof-of-concept, written in Go and on the G3N Go 3D game engine.
+CaveExplorer is a voxel-based videogame proof-of-concept, written in Go and on the G3N Go 3D game engine.
 
 # Binary
 
-Check the releases page at https://github.com/lquesada/Cavernal/releases for binary Linux releases and videos.
+Check the releases page at https://github.com/lquesada/CaveExplorer/releases for binary Linux releases and videos.
 
 # Features
 
@@ -47,7 +47,7 @@ Check the releases page at https://github.com/lquesada/Cavernal/releases for bin
      
 # Structure
 
-Cavernal is sort of a game engine built on top G3N, and an instantiation of the engine.
+CaveExplorer is sort of a game engine built on top G3N, and an instantiation of the engine.
 
 -----
 
@@ -62,7 +62,7 @@ Please refer to lib/customfixes for the diffs.
 
 -----
 
-The following directories compose the Cavernal sort-of-game-engine:
+The following directories compose the CaveExplorer sort-of-game-engine:
 
    - ./entity: Defines and implements basic entity logic (e.g. characters, attacks, collisions, and items)
      - ./entity/humanoid: Defines and implement basic humanoid-specific logic (e.g. humanoid inventory, humanoid animations)
@@ -77,7 +77,7 @@ The following directories compose the Cavernal sort-of-game-engine:
 
 -----
 
-The following files and directories compose an instantiation of the Cavernal sort-of-game-engine:
+The following files and directories compose an instantiation of the CaveExplorer sort-of-game-engine:
 
    - ./main.go: Contains all game logic for an instance, including how to generate the world, the player, and the enemies, what happens when moving a level forward or backward, what to put in the last level, when to exit the game, etc. Relies heavily on helpers and uses the assets listed below.
    - ./assets: Contains definitions and implementations for all entities in the game
